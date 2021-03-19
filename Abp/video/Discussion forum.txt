@@ -1,0 +1,42 @@
+Discussion Forum
+
+Hi,
+
+My project is Discussion Forum. The main functionalities include
+1. Topic - create, update, delete
+2. Users - create, update, delete and set role for the user.
+3. Question - create, update, delete and view questions
+4. Roles - create, update, delete, set permission for each role
+5. Answer - post an answer for a question, view answers.
+
+This project basically has two users, Administrator and user.
+
+1. Administrator
+
+Admin has all the privileges.
+
+-> Add a new user, set role for the user, edit user details and also delete a user.
+
+-> Can add new topics, edit them and also delete them if needed.
+
+-> Admin can view questions created by all users and also add questions.
+   Questions can be searched by topic, question or posted by names.
+
+-> He can view answers corresponding to each questions and also post answers. 
+   Answers can be searched by answer or posted by names.
+
+2. User
+
+User has only question and answer privileges.
+
+-> User can view questions created by all users and also add new questions. He can edit or delete his own questions.
+   Questions can be searched by topic, question or posted by names.
+
+-> He can view answers corresponding to each questions and also post new answers. 
+   Answers can be searched by answer or posted by names.
+
+
+Pagination is added in all the pages. By default 10 rows will be displayed.
+
+
+Thank you.

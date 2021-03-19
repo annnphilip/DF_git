@@ -15,6 +15,7 @@ namespace Discussion_forum.Questions.Dto
         public string QuestionsText { get; set; }
         public DateTime CreationTime { get ; set ; }
         public string TopicName { get; set; }
+        public int TopicId { get; set; }
         public string UserName { get; set; }
         public long UserId { get; set; }
 

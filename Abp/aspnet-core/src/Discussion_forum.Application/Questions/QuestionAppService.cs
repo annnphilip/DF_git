@@ -50,7 +50,9 @@ namespace Discussion_forum.Questions
                     QuestionsText = t.QuestionsText,
                     CreationTime = t.CreationTime,
                     TopicName = t.Topic.TopicName,
-                    UserName = t.CreatorUser.UserName
+                    TopicId = t.TopicId,
+                    UserName = t.CreatorUser.UserName,
+                    UserId = t.CreatorUser.Id
                 })
                 .ToListAsync();
 
@@ -93,6 +95,7 @@ namespace Discussion_forum.Questions
                 QuestionsText = t.QuestionsText,
                 CreationTime = t.CreationTime,
                 TopicName = t.Topic.TopicName,
+                TopicId=t.TopicId,
                 UserName = t.CreatorUser.UserName,
                 UserId=t.CreatorUser.Id
             }); 

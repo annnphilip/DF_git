@@ -94,6 +94,7 @@ export class TopicComponent  extends PagedListingComponentBase<TopicListDto> {
               finalize(() => {
                 abp.notify.success(this.l('SuccessfullyDeleted'));
                 this.refresh();
+                this.getAllTopics();
               })
             )
             .subscribe(() => {});

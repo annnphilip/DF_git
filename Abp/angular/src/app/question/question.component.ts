@@ -78,7 +78,7 @@ export class QuestionComponent extends PagedListingComponentBase<QuestionOutputD
     this.showCreateOrEditQuestion();
   }
 
-  editQuestio(questions: QuestionListDto): void {
+  editQuestion(questions: QuestionListDto): void {
     this.showCreateOrEditQuestion(questions.id);
   }
 

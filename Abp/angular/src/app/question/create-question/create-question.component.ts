@@ -51,6 +51,7 @@ export class CreateQuestionComponent  extends AppComponentBase
 
   ngOnInit(...args: []) {
     this.getAllTopics();
+    this.question.topicId=null;
   }
 
   getAllTopics(){
